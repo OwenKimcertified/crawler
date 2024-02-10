@@ -5,3 +5,5 @@ crawling data
 Mockmvc test
 
 jpa
+
+build/test/CI:CD/
