@@ -9,3 +9,5 @@ jpa
 build/test/CI:CD/
 
 mustache
+
+H2 DB
