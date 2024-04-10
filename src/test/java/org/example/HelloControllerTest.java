@@ -1,4 +1,4 @@
-package HCT;
+package org.example;
 
 import org.example.web.HelloController;
 import org.junit.jupiter.api.Test;

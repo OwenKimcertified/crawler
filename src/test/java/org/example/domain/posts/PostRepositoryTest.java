@@ -1,26 +1,20 @@
-package HCT.domain.posts;
-
+package org.example.domain.posts;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 
-import org.example.domain.posts.Posts;
-import org.example.domain.posts.PostsRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.transaction.Transactional;
 import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
-
 @DataJpaTest
-@ExtendWith(MockitoExtension.class)
 public class PostRepositoryTest {
-
     @Autowired
     PostsRepository postsRepository;
 
