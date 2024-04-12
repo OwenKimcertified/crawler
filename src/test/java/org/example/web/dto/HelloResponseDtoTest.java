@@ -1,4 +1,4 @@
-package org.example.dto;
+package org.example.web.dto;
 import org.example.web.dto.HelloResponseDto;
 import org.junit.jupiter.api.Test;
 
