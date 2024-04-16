@@ -1,13 +1,27 @@
-spring server 
+# item crwaling
 
-crawling data
+Spring server, MySQL
 
-Mockmvc test
+### __to-do list__
 
-jpa
+[x] DB connection
 
-build/test/CI:CD/
+[x] API get, put
 
-mustache
+[x] JPA, Entity
 
-H2 DB
+### Spring
+
+for API 
+
+Controller, Dto, Service Logic and dirty checking
+
+### Python 3.9
+
+Crwaling code sync -> async 
+
+Break point 
+- gil
+- thread
+- processor
+- async, coroutine( .create_task )
