@@ -22,10 +22,13 @@ public class Product {
     @Column(name = "price")
     private double price;
 
+    @Column(name = "rating")
+    private double rating;
     @Builder
-    public Product(String productName, double price) {
+    public Product(String productName, double price, double rating) {
 
         this.productName = productName;
         this.price = price;
+        this.rating = rating;
     }
 }

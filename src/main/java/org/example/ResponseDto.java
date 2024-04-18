@@ -13,4 +13,5 @@ public class ResponseDto {
     private int id;
     private String productName;
     private double price;
+    private double rating;
 }

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="initial setting." />
+    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="initial setting.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProductRepositoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,32 +66,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.ProductRepositoryTest (1).executor": "Run",
-    "Gradle.ProductRepositoryTest.executor": "Run",
-    "Gradle.ProductRepositoryTest.saveProductTest.executor": "Run",
-    "Gradle.ProductRepositoryTest.test_saveProduct.executor": "Run",
-    "Gradle.test1234 [:Main.main()].executor": "Run",
-    "JUnit.ProductRepositoryTest.executor": "Run",
-    "JUnit.ProductRepositoryTest.saveProductTest.executor": "Debug",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ehdrb/IdeaProjects/crawler",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "애플리케이션.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.ProductRepositoryTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductRepositoryTest.saveProductTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProductRepositoryTest.test_saveProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.test1234 [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRepositoryTest.saveProductTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ehdrb/IdeaProjects/crawler&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ehdrb\IdeaProjects\crawler\coupang" />
@@ -244,7 +249,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713291469533</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial setting.">
+      <option name="closed" value="true" />
+      <created>1713291570893</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713291570893</updated>
+    </task>
+    <task id="LOCAL-00007" summary="initial setting.">
+      <option name="closed" value="true" />
+      <created>1713291619291</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713291619291</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

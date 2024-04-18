@@ -13,7 +13,10 @@ public class Controller {
 
     @PutMapping("/put/coupang/notebook")
     public ResponseDto putProduct(@RequestBody ResponseDto responseDto) {
-        Product product = new Product(responseDto.getProductName(), responseDto.getPrice());
+        Product product = new Product(responseDto.getProductName(),
+                                      responseDto.getPrice(),
+                                      responseDto.getRating());
+
         service.saveProduct(product);
         return new ResponseDto(); //
     }
