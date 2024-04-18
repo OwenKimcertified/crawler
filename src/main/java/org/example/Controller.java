@@ -13,10 +13,13 @@ public class Controller {
 
     @PutMapping("/put/coupang/notebook")
     public ResponseDto putProduct(@RequestBody ResponseDto responseDto) {
-        Product product = new Product(responseDto.getProductName(),
-                                      responseDto.getPrice(),
-                                      responseDto.getRating());
-
+        Product product = new Product(responseDto.getProduct_name(),
+                                      responseDto.getOrigin_price(),
+                                      responseDto.getDiscount_price(),
+                                      responseDto.getRocket(),
+                                      responseDto.getRating(),
+                                      responseDto.getCard_charge_discount_wow_only(),
+                                      responseDto.getCoucash_payback_wow_only());
         service.saveProduct(product);
         return new ResponseDto(); //
     }
