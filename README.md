@@ -18,7 +18,7 @@ Controller, Dto, Service Logic and dirty checking
 
 ### Python 3.9
 
-Crwaling code sync -> async 
+Crwaling code sync -> async 20%
 
 Break point 
 - gil
