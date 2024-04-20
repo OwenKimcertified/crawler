@@ -1,0 +1,14 @@
+<changelist name="2024-04-21_오전_4_06,_업데이트_전에_커밋되지_않은_변경_내용_[변경]1" date="1713640021198" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/2024-04-21_오전_4_06,_업데이트_전에_커밋되지_않은_변경_내용_[변경]1/shelved.patch" />
+  <option name="DESCRIPTION" value="2024-04-21 오전 4:06, 업데이트 전에 커밋되지 않은 변경 내용 [변경]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/classes/org/example/ResponseDto.class" />
+    <option name="AFTER_PATH" value="out/production/classes/org/example/ResponseDto.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/2024-04-21_오전_4_06,_업데이트_전에_커밋되지_않은_변경_내용_[변경]1/ResponseDto.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/classes/org/example/Controller.class" />
+    <option name="AFTER_PATH" value="out/production/classes/org/example/Controller.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/2024-04-21_오전_4_06,_업데이트_전에_커밋되지_않은_변경_내용_[변경]1/Controller.class" />
+  </binary>
+</changelist>

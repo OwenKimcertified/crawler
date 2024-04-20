@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="column add, async">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="수집기 비동기 처리 중, 테이블 상속 문제">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawling_file/coupang.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawling_file/coupang.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProductRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -79,7 +73,9 @@
     &quot;Gradle.ProductRepositoryTest.saveProductTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.ProductRepositoryTest.test_saveProduct.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.test1234 [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRepositoryTest (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ProductRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductRepositoryTest.saveProductTest (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ProductRepositoryTest.saveProductTest.executor&quot;: &quot;Debug&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -109,11 +105,13 @@
   </component>
   <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="test1234.main" />
+      <module name="crawler.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Products.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,56 +119,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepositoryTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ProductRepositoryTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ProductRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.ProductRepositoryTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crawler.test" />
+      <option name="PACKAGE_NAME" value="org.example.Products" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Products.ProductRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test1234.test" />
+      <module name="crawler.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ProductRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -179,7 +144,23 @@
       </method>
     </configuration>
     <configuration name="ProductRepositoryTest.saveProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test1234.test" />
+      <module name="crawler.test" />
+      <option name="PACKAGE_NAME" value="org.example.Products" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Products.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="saveProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.saveProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crawler.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ProductRepositoryTest" />
       <option name="METHOD_NAME" value="saveProductTest" />
@@ -193,8 +174,6 @@
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="JUnit.ProductRepositoryTest" />
         <item itemvalue="JUnit.ProductRepositoryTest.saveProductTest" />
-        <item itemvalue="Gradle.ProductRepositoryTest" />
-        <item itemvalue="Gradle.ProductRepositoryTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +265,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713449264839</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="column add, async">
+      <option name="closed" value="true" />
+      <created>1713461324508</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713461324508</updated>
+    </task>
+    <task id="LOCAL-00011" summary="수집기 비동기 처리 중, 테이블 상속 문제">
+      <option name="closed" value="true" />
+      <created>1713639982943</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713639982943</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -296,6 +291,7 @@
     <MESSAGE value="column, async" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;out/production/classes/org/example/Controller.class&#10;#&#9;out/production/classes/org/example/Product$ProductBuilder.class&#10;#&#9;out/production/classes/org/example/Product.class&#10;#&#9;out/production/classes/org/example/ResponseDto.class&#10;#&#9;out/test/classes/org/example/ProductRepositoryTest.class" />
     <MESSAGE value="column add, async" />
-    <option name="LAST_COMMIT_MESSAGE" value="column add, async" />
+    <MESSAGE value="수집기 비동기 처리 중, 테이블 상속 문제" />
+    <option name="LAST_COMMIT_MESSAGE" value="수집기 비동기 처리 중, 테이블 상속 문제" />
   </component>
 </project>

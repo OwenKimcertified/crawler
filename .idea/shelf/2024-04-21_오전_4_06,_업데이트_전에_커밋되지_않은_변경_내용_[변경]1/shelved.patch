@@ -1,0 +1,242 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"426ae3de-25f5-4cbd-813a-ea724b36ac15\" name=\"변경\" comment=\"column add, async\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/.name\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/.name\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/crawling_file/coupang.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/crawling_file/coupang.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Controller.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Controller.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Product.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Product.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/org/example/ProductRepositoryTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/org/example/ProductRepositoryTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <task path=\"$PROJECT_DIR$\">\r\n          <activation />\r\n        </task>\r\n        <projects_view>\r\n          <tree_state>\r\n            <expand>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"test1234\" type=\"f1a62948:ProjectNode\" />\r\n              </path>\r\n            </expand>\r\n            <select />\r\n          </tree_state>\r\n        </projects_view>\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2f2gd4tSajj3F0Gv64w0IUsKPJJ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <OptionsSetting value=\"false\" id=\"Update\" />\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\r\n    &quot;Gradle.ProductRepositoryTest (1).executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.ProductRepositoryTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.ProductRepositoryTest.saveProductTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.ProductRepositoryTest.test_saveProduct.executor&quot;: &quot;Run&quot;,\r\n    &quot;Gradle.test1234 [:Main.main()].executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.ProductRepositoryTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.ProductRepositoryTest.saveProductTest.executor&quot;: &quot;Debug&quot;,\r\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/ehdrb/IdeaProjects/crawler&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,\r\n    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\ehdrb\\IdeaProjects\\crawler\\coupang\" />\r\n      <recent name=\"C:\\Users\\ehdrb\\IdeaProjects\\crawler\" />\r\n      <recent name=\"C:\\Users\\ehdrb\\IdeaProjects\\test1234\\crawling_file\" />\r\n    </key>\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"애플리케이션.Main\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Main\" />\r\n      <module name=\"test1234.main\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductRepositoryTest (1)\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;ProductRepositoryTest&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"ProductRepositoryTest\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\":test\" />\r\n            <option value=\"--tests\" />\r\n            <option value=\"&quot;org.example.ProductRepositoryTest&quot;\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>true</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"ProductRepositoryTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"test1234.test\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"org.example\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.ProductRepositoryTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProductRepositoryTest.saveProductTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"test1234.test\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"org.example\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.ProductRepositoryTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"saveProductTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"애플리케이션.Main\" />\r\n        <item itemvalue=\"JUnit.ProductRepositoryTest\" />\r\n        <item itemvalue=\"JUnit.ProductRepositoryTest.saveProductTest\" />\r\n        <item itemvalue=\"Gradle.ProductRepositoryTest\" />\r\n        <item itemvalue=\"Gradle.ProductRepositoryTest (1)\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"애플리케이션 수준\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"디폴트 작업\">\r\n      <changelist id=\"426ae3de-25f5-4cbd-813a-ea724b36ac15\" name=\"변경\" comment=\"\" />\r\n      <created>1713004671009</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1713004671009</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713104239268</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713104239268</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713109816128</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713109816128</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713276658415</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713276658415</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"jpa pass\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713282891700</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713282891700</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"initial setting.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713291469532</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713291469533</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"initial setting.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713291570893</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713291570893</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"initial setting.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713291619291</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713291619291</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"column add, async\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713449237340</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713449237340</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"column add, async\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713449264839</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713449264839</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"test\" />\r\n    <MESSAGE value=\"jpa pass\" />\r\n    <MESSAGE value=\"initial setting.\" />\r\n    <MESSAGE value=\"column, async\" />\r\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;out/production/classes/org/example/Controller.class&#10;#&#9;out/production/classes/org/example/Product$ProductBuilder.class&#10;#&#9;out/production/classes/org/example/Product.class&#10;#&#9;out/production/classes/org/example/ResponseDto.class&#10;#&#9;out/test/classes/org/example/ProductRepositoryTest.class\" />\r\n    <MESSAGE value=\"column add, async\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"column add, async\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,14 +5,20 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="column add, async">
+-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/crawling_file/coupang.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawling_file/coupang.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Controller.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Product$ProductBuilder.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Product.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/ResponseDto.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/test/classes/org/example/ProductRepositoryTest.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Product.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProductRepositoryTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Products/CPRefrigerator.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Products/CPRefrigeratorRepository.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/T_Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductService.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Products/ProductRepositoryTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -47,8 +53,8 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+-        <option value="Interface" />
+         <option value="Class" />
++        <option value="Interface" />
+       </list>
+     </option>
+   </component>
+@@ -79,7 +85,9 @@
+     &quot;Gradle.ProductRepositoryTest.saveProductTest.executor&quot;: &quot;Run&quot;,
+     &quot;Gradle.ProductRepositoryTest.test_saveProduct.executor&quot;: &quot;Run&quot;,
+     &quot;Gradle.test1234 [:Main.main()].executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.ProductRepositoryTest (1).executor&quot;: &quot;Run&quot;,
+     &quot;JUnit.ProductRepositoryTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.ProductRepositoryTest.saveProductTest (1).executor&quot;: &quot;Run&quot;,
+     &quot;JUnit.ProductRepositoryTest.saveProductTest.executor&quot;: &quot;Debug&quot;,
+     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+@@ -109,11 +117,13 @@
+   </component>
+   <component name="RunManager" selected="애플리케이션.Main">
+     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+-      <module name="test1234.main" />
++      <module name="crawler.main" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="org.example.*" />
++          <option name="PATTERN" value="org.example.Products.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -121,56 +131,23 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ProductRepositoryTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+-      <ExternalSystemSettings>
+-        <option name="executionName" />
+-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="externalSystemIdString" value="GRADLE" />
+-        <option name="scriptParameters" value="" />
+-        <option name="taskDescriptions">
+-          <list />
+-        </option>
+-        <option name="taskNames">
+-          <list>
+-            <option value=":test" />
+-            <option value="--tests" />
+-            <option value="&quot;ProductRepositoryTest&quot;" />
+-          </list>
+-        </option>
+-        <option name="vmOptions" />
+-      </ExternalSystemSettings>
+-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+-      <DebugAllEnabled>false</DebugAllEnabled>
+-      <RunAsTest>true</RunAsTest>
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="ProductRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+-      <ExternalSystemSettings>
+-        <option name="executionName" />
+-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="externalSystemIdString" value="GRADLE" />
+-        <option name="scriptParameters" value="" />
+-        <option name="taskDescriptions">
+-          <list />
+-        </option>
+-        <option name="taskNames">
+-          <list>
+-            <option value=":test" />
+-            <option value="--tests" />
+-            <option value="&quot;org.example.ProductRepositoryTest&quot;" />
+-          </list>
+-        </option>
+-        <option name="vmOptions" />
+-      </ExternalSystemSettings>
+-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+-      <DebugAllEnabled>false</DebugAllEnabled>
+-      <RunAsTest>true</RunAsTest>
+-      <method v="2" />
++    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="crawler.test" />
++      <option name="PACKAGE_NAME" value="org.example.Products" />
++      <option name="MAIN_CLASS_NAME" value="org.example.Products.ProductRepositoryTest" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
+     </configuration>
+     <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="test1234.test" />
++      <module name="crawler.test" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
+       <option name="PACKAGE_NAME" value="org.example" />
+       <option name="MAIN_CLASS_NAME" value="org.example.ProductRepositoryTest" />
+       <option name="TEST_OBJECT" value="class" />
+@@ -179,7 +156,23 @@
+       </method>
+     </configuration>
+     <configuration name="ProductRepositoryTest.saveProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="test1234.test" />
++      <module name="crawler.test" />
++      <option name="PACKAGE_NAME" value="org.example.Products" />
++      <option name="MAIN_CLASS_NAME" value="org.example.Products.ProductRepositoryTest" />
++      <option name="METHOD_NAME" value="saveProductTest" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ProductRepositoryTest.saveProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="crawler.test" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
+       <option name="PACKAGE_NAME" value="org.example" />
+       <option name="MAIN_CLASS_NAME" value="org.example.ProductRepositoryTest" />
+       <option name="METHOD_NAME" value="saveProductTest" />
+@@ -193,8 +186,6 @@
+         <item itemvalue="애플리케이션.Main" />
+         <item itemvalue="JUnit.ProductRepositoryTest" />
+         <item itemvalue="JUnit.ProductRepositoryTest.saveProductTest" />
+-        <item itemvalue="Gradle.ProductRepositoryTest" />
+-        <item itemvalue="Gradle.ProductRepositoryTest (1)" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -286,7 +277,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1713449264839</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="column add, async">
++      <option name="closed" value="true" />
++      <created>1713461324508</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1713461324508</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+Index: src/main/java/org/example/Products/CPRefrigeratorRepository.java
+===================================================================
+diff --git a/src/main/java/org/example/Products/CPRefrigeratorRepository.java b/src/main/java/org/example/Products/CPRefrigeratorRepository.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/org/example/Products/CPRefrigeratorRepository.java	
+@@ -0,0 +1,7 @@
++package org.example.Products;
++
++import org.springframework.data.jpa.repository.JpaRepository;
++import org.springframework.stereotype.Repository;
++@Repository
++public interface CPRefrigeratorRepository extends JpaRepository<CPRefrigerator, Integer> {
++}
+Index: settings.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>rootProject.name = 'crawler_Test'\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/settings.gradle b/settings.gradle
+--- a/settings.gradle	
++++ b/settings.gradle	
+@@ -1,2 +1,2 @@
+-rootProject.name = 'crawler_Test'
++rootProject.name = 'crawler'
+ 
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile default=\"true\" name=\"Default\" enabled=\"true\" />\r\n      <profile name=\"Gradle Imported\" enabled=\"true\">\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <processorPath useClasspath=\"false\">\r\n          <entry name=\"$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.20/18bcea7d5df4d49227b4a0743a536208ce4825bb/lombok-1.18.20.jar\" />\r\n        </processorPath>\r\n        <module name=\"crawler_Test.main\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel target=\"1.8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	
++++ b/.idea/compiler.xml	
+@@ -8,7 +8,7 @@
+         <processorPath useClasspath="false">
+           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.20/18bcea7d5df4d49227b4a0743a536208ce4825bb/lombok-1.18.20.jar" />
+         </processorPath>
+-        <module name="crawler_Test.main" />
++        <module name="crawler.main" />
+       </profile>
+     </annotationProcessing>
+     <bytecodeTargetLevel target="1.8" />
