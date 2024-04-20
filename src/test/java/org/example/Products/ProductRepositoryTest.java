@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Products;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class ProductRepositoryTest {
 
     @Autowired
-    private ProductRepository productRepository;
+    private CPRefrigeratorRepository productRepository;
 
     @AfterEach
     public void cleanup() {
@@ -35,18 +35,18 @@ public class ProductRepositoryTest {
         String coucash_payback_wow_only = "12700원 적립";
 
         // When
-        productRepository.save(Product.builder().product_name(product_name)
-                                                .origin_price(origin_price)
-                                                .discount_price(discount_price)
-                                                .rocket(rocket)
-                                                .rating(rating)
-                                                .card_charge_discount_wow_only(card_charge_discount_wow_only)
-                                                .coucash_payback_wow_only(coucash_payback_wow_only).build());
+        productRepository.save(CPRefrigerator.builder().product_name(product_name)
+                .origin_price(origin_price)
+                .discount_price(discount_price)
+                .rocket(rocket)
+                .rating(rating)
+                .card_charge_discount_wow_only(card_charge_discount_wow_only)
+                .coucash_payback_wow_only(coucash_payback_wow_only).build());
 
-        List<Product> productList = productRepository.findAll();
+        List<CPRefrigerator> productList = productRepository.findAll();
 
         // Then
-        Product product = productList.get(0);
+        CPRefrigerator product = productList.get(0);
         assertThat(product.getProduct_name()).isEqualTo(product_name);
     }
 }

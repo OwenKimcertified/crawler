@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Products;
 
 import lombok.*;
 
@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @Table(name = "coupang_refrigerator")
-public class Product {
+public class CPRefrigerator {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -38,10 +38,10 @@ public class Product {
     private String coucash_payback_wow_only;
 
     @Builder
-    public Product(String product_name, double origin_price, double discount_price,
-                   String rocket, double rating,
-                   String card_charge_discount_wow_only,
-                   String coucash_payback_wow_only)
+    public CPRefrigerator(String product_name, double origin_price, double discount_price,
+                          String rocket, double rating,
+                          String card_charge_discount_wow_only,
+                          String coucash_payback_wow_only)
     {
 
         this.product_name = product_name;
