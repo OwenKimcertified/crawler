@@ -1,6 +1,6 @@
 # item crwaling
 
-Spring server, MySQL
+Spring server, MySQL, Druid(예정)
 
 ### __to-do list__
 
@@ -10,7 +10,7 @@ Spring server, MySQL
 
 [x] JPA, Entity
 
-[] kafka API GET logging, transaction
+[] kafka API logging(transaction)
 
 ### Spring
 
