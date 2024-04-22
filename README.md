@@ -10,6 +10,8 @@ Spring server, MySQL
 
 [x] JPA, Entity
 
+[] kafka API GET logging, transaction
+
 ### Spring
 
 for API 
