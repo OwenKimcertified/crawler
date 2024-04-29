@@ -22,7 +22,11 @@ Controller, Dto, Service Logic(MVC pattern) and dirty checking
 
 ### Python 3.9
 
-[x] Crwaling async code (playwright) __performance increase 17%__ more or less
+[x] Crwaling async code (playwright) More pages, More performance
+
+ㄴ  10% performance improvement when crawling 5 pages.
+
+    
 
 Break point 
 - gil
