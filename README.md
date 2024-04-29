@@ -1,6 +1,6 @@
 # item crwaling
 
-Spring server, MySQL, Druid(예정)
+Spring server, MySQL -> Druid(예정)
 
 ### __to-do list__
 
@@ -10,20 +10,20 @@ Spring server, MySQL, Druid(예정)
 
 [x] JPA, Entity
 
-[] kafka API logging(transaction)
+[] kafka API logging(transaction) + monitoring (prometheus)
 
 ### Spring
 
-for API 
+for RestAPI 
 
-Controller, Dto, Service Logic and dirty checking
+Controller, Dto, Service Logic(MVC pattern) and dirty checking
 
 ### Python 3.9
 
-Crwaling async code
+[x] Crwaling async code (playwright) __performance increase 17%__ more or less
 
 Break point 
 - gil
 - thread
 - processor
-- async, coroutine( .create_task )
+- async, coroutine( .create_task .gather)
