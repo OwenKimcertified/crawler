@@ -12,6 +12,8 @@ Spring server, MySQL -> Druid(예정)
 
 [] kafka API logging(transaction) + monitoring (prometheus)
 
+[] spark(api serving) ad-hoc query(*tunned mission) 
+
 ### Spring
 
 for RestAPI 
