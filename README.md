@@ -4,8 +4,6 @@ Spring server, MySQL -> Druid(예정)
 
 ### __to-do list__
 
-[x] DB connection
-
 [x] RestAPI get, put
 
 [x] JPA, Entity
@@ -13,6 +11,8 @@ Spring server, MySQL -> Druid(예정)
 [] kafka API logging(transaction) + monitoring (prometheus)
 
 [] spark(api serving) ad-hoc query(*tunning mission) 
+
+[] DB design
 
 ### Spring
 
