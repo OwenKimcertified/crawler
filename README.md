@@ -8,7 +8,7 @@ Spring server, MySQL -> Druid(예정)
 
 [x] JPA, Entity
 
-[] kafka API logging(transaction) + monitoring (prometheus)
+[x] kafka API logging(transaction) + monitoring (prometheus)
 
 [] spark(api serving) ad-hoc query(*tunning mission) 
 
