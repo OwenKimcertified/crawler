@@ -1,6 +1,6 @@
 # item crwaling
 
-Spring server, MySQL -> Druid(예정)
+Spring server, MySQL -> Druid(scheduled)
 
 ### __to-do list__
 
@@ -13,6 +13,12 @@ Spring server, MySQL -> Druid(예정)
 ![img](./img/1.png)
 
 ![img](./img/2.png)
+
+### Network load test
+
+![img](./img/3.png)
+
+Shutting down a container(broker) increases the network usage of another broker.
 
 [] spark(api serving + *query tunning mission), DW for ad-hoc query
 
