@@ -6,13 +6,11 @@ Spring server, MySQL -> Druid(예정)
 
 [x] RestAPI get, put
 
-[x] JPA, Entity
+[x] DB design
 
 [x] kafka API logging(transaction) + monitoring (prometheus)
 
-[] spark(api serving) ad-hoc query(*tunning mission) 
-
-[] DB design
+[] spark(api serving + *query tunning mission), DW for ad-hoc query
 
 ### Spring
 
