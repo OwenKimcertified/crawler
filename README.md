@@ -1,27 +1,37 @@
 # item crwaling
 
-Spring server, MySQL
+Spring server, MySQL -> Druid(예정)
 
 ### __to-do list__
 
-[x] DB connection
+[x] RestAPI get, put
 
-[x] API get, put
+[x] DB design
 
-[x] JPA, Entity
+[x] kafka API logging(transaction) + monitoring (prometheus)
+
+![img](./img/1.png)
+
+![img](./img/2.png)
+
+[] spark(api serving + *query tunning mission), DW for ad-hoc query
 
 ### Spring
 
-for API 
+for RestAPI
 
-Controller, Dto, Service Logic and dirty checking
+Controller, Dto, Service Logic(MVC pattern) and dirty checking
 
 ### Python 3.9
 
-Crwaling code sync -> async 20%
+[x] Crwaling async code (playwright) More pages, More performance
 
-Break point 
+ㄴ  10% performance improvement when crawling 5 pages.
+
+
+
+Break point
 - gil
 - thread
 - processor
-- async, coroutine( .create_task )
+- async, coroutine( .create_task .gather)
