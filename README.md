@@ -6,7 +6,7 @@ Spring server, MySQL -> Druid(scheduled)
 
 [x] RestAPI get, put
 
-[x] DB design
+[x] MongoDB Meta data Schema, gridfs 
 
 [x] kafka API logging(transaction) + monitoring (prometheus)
 
