@@ -6,9 +6,9 @@ Spring server, MySQL -> Druid(scheduled)
 
 [x] RestAPI get, put
 
-[x] DB design
+[x] MongoDB Meta data Schema
 
-[x] kafka API logging(transaction) + monitoring (prometheus)
+[x] kafka API logging(transaction) + monitoring (prometheus) construction ing**
 
 ![img](./img/1.png)
 

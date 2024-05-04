@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="수집기 비동기 처리 중, 테이블 상속 문제">
+    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="kafka status monitoring(Grafana)">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-04-21__4_06__________.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/2024-04-21__4_06__________.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-04-21__4_06__________1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-04-21_오전_4_06,_업데이트_전에_커밋되지_않은_변경_내용_[변경]1/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-04-21_오전_4_06,_업데이트_전에_커밋되지_않은_변경_내용_[변경]1/ResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-04-21_오전_4_06,_업데이트_전에_커밋되지_않은_변경_내용_[변경]1/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,7 +91,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ehdrb/IdeaProjects/crawler&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ehdrb/IdeaProjects/crawler/img&quot;,
     &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -94,9 +100,12 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ehdrb\IdeaProjects\crawler\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ehdrb\IdeaProjects\crawler\coupang" />
       <recent name="C:\Users\ehdrb\IdeaProjects\crawler" />
+      <recent name="C:\Users\ehdrb\IdeaProjects\crawler\coupang" />
       <recent name="C:\Users\ehdrb\IdeaProjects\test1234\crawling_file" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -281,7 +290,39 @@
       <option name="project" value="LOCAL" />
       <updated>1713639982943</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="수집기 비동기 처리 중, 테이블 상속 문제">
+      <option name="closed" value="true" />
+      <created>1713640316780</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713640316780</updated>
+    </task>
+    <task id="LOCAL-00013" summary="grafana, prometheus kafka connect (monitoring)">
+      <option name="closed" value="true" />
+      <created>1714649305913</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714649305913</updated>
+    </task>
+    <task id="LOCAL-00014" summary="grafana, prometheus kafka connect (monitoring)">
+      <option name="closed" value="true" />
+      <created>1714667745711</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714667745711</updated>
+    </task>
+    <task id="LOCAL-00015" summary="grafana, prometheus kafka connect (monitoring)">
+      <option name="closed" value="true" />
+      <created>1714688248760</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714688248760</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -292,6 +333,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;out/production/classes/org/example/Controller.class&#10;#&#9;out/production/classes/org/example/Product$ProductBuilder.class&#10;#&#9;out/production/classes/org/example/Product.class&#10;#&#9;out/production/classes/org/example/ResponseDto.class&#10;#&#9;out/test/classes/org/example/ProductRepositoryTest.class" />
     <MESSAGE value="column add, async" />
     <MESSAGE value="수집기 비동기 처리 중, 테이블 상속 문제" />
-    <option name="LAST_COMMIT_MESSAGE" value="수집기 비동기 처리 중, 테이블 상속 문제" />
+    <MESSAGE value="grafana, prometheus kafka connect (monitoring)" />
+    <option name="LAST_COMMIT_MESSAGE" value="grafana, prometheus kafka connect (monitoring)" />
   </component>
 </project>
