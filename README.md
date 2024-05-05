@@ -26,7 +26,7 @@ Shutting down a container(broker) increases the network usage of another broker.
 
 [] day, week, month query
 
-[] recommendor system
+[] recommend system
 
 ### Spring
 
