@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.Kafka.KafkaProducer;
 import org.example.Products.CPNotebook;
 import org.example.Products.CPRefrigerator;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,8 @@ import java.util.List;
 public class Controller {
     @Autowired
     private ProductService service;
+    @Autowired
+    private KafkaProducer kafkaProducer;
 
     @PutMapping("/put/coupang/refrigerator")
     public ResponseDto putRefrigerator(@RequestBody ResponseDto responseDto) {
@@ -23,6 +26,7 @@ public class Controller {
                 responseDto.getCard_charge_discount_wow_only(),
                 responseDto.getCoucash_payback_wow_only());
         service.saveRefrigerator(refrigerator);
+        kafkaProducer.sendPutRefrigeratorMessage(responseDto);
         return new ResponseDto(); //
     }
 
@@ -36,12 +40,14 @@ public class Controller {
                                                 responseDto.getCard_charge_discount_wow_only(),
                                                 responseDto.getCoucash_payback_wow_only());
         service.saveNotebook(notebook);
+        kafkaProducer.sendPutNotebookMessage(responseDto);
         return new ResponseDto(); //
     }
 
     @GetMapping("/get/coupang/refrigerator")
     public List<CPRefrigerator> getRefrigerator() {
 
+        kafkaProducer.sendGetRefrigeratorMessage();
         // 모든 제품 조회
         return service.getAllRefrigerator();
     }
@@ -50,6 +56,7 @@ public class Controller {
     @GetMapping("/get/coupang/notebook")
     public List<CPNotebook> getNotebook() {
 
+        kafkaProducer.sendGetNotebookMessage();
         // 모든 제품 조회
         return service.getAllNotebook();
     }
