@@ -12,14 +12,16 @@ public class KafkaProducer {
     private static final String TOPIC_GET_NOTEBOOK = "get_notebook_topic";
 
     @Autowired
-    private KafkaTemplate<String, Object> kafkaTemplate;
+    private KafkaTemplate<String, String> kafkaTemplate;
 
     public void sendPutRefrigeratorMessage(ResponseDto responseDto) {
-        kafkaTemplate.send(TOPIC_PUT_REFRIGERATOR, responseDto);
+        String message = responseDto.toString();
+        kafkaTemplate.send(TOPIC_PUT_REFRIGERATOR, message);
     }
 
     public void sendPutNotebookMessage(ResponseDto responseDto) {
-        kafkaTemplate.send(TOPIC_PUT_NOTEBOOK, responseDto);
+        String message = responseDto.toString();
+        kafkaTemplate.send(TOPIC_PUT_NOTEBOOK, message);
     }
 
     public void sendGetRefrigeratorMessage() {

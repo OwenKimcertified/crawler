@@ -18,4 +18,16 @@ public class ResponseDto {
     private double rating;
     private String card_charge_discount_wow_only;
     private String coucash_payback_wow_only;
-}
+    @Override
+    public String toString() {
+        return "ResponseDto{" +
+                "id=" + (++id) +
+                ", product_name='" + product_name + '\'' +
+                ", origin_price=" + origin_price +
+                ", discount_price=" + discount_price +
+                ", rocket='" + rocket + '\'' +
+                ", rating=" + rating +
+                ", card_charge_discount_wow_only='" + card_charge_discount_wow_only + '\'' +
+                ", coucash_payback_wow_only='" + coucash_payback_wow_only + '\'' +
+                '}';
+    }}

@@ -20,6 +20,12 @@ Spring server, MySQL -> Druid(scheduled)
 
 Shutting down a container(broker) increases the network usage of another broker.
 
+### kafka error log
+
+![img](./img/4.png)
+
+disconnect error checking
+
 [] spark(api serving + *query tunning mission), DW for ad-hoc query
 
 [] Airflow(automation) 
