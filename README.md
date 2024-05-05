@@ -8,7 +8,7 @@ Spring server, MySQL -> Druid(scheduled)
 
 [x] MongoDB Meta data Schema
 
-[x] kafka API logging(transaction) + monitoring (prometheus) construction ing**
+[x] kafka API logging(transaction) + monitoring (prometheus)
 
 ![img](./img/1.png)
 
@@ -21,6 +21,12 @@ Spring server, MySQL -> Druid(scheduled)
 Shutting down a container(broker) increases the network usage of another broker.
 
 [] spark(api serving + *query tunning mission), DW for ad-hoc query
+
+[] Airflow(automation) 
+
+[] day, week, month query
+
+[] recommendor system
 
 ### Spring
 
