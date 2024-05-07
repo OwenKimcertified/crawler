@@ -26,9 +26,9 @@ Shutting down a container(broker) increases the network usage of another broker.
 
 disconnect error checking
 
-[] spark(api serving + *query tunning mission), DW for ad-hoc query
+[x] Airflow(automation)
 
-[] Airflow(automation) 
+[] spark(api serving + *query tunning mission), DW for ad-hoc query
 
 [] day, week, month query
 
@@ -38,7 +38,9 @@ disconnect error checking
 
 for RestAPI
 
-Controller, Dto, Service Logic(MVC pattern) and dirty checking
+Controller, Dto, Service Logic(MVC pattern)
+
+dirty checking, MVC, single pattern
 
 ### Python 3.9
 
@@ -46,10 +48,8 @@ Controller, Dto, Service Logic(MVC pattern) and dirty checking
 
 ㄴ  10% performance improvement when crawling 5 pages.
 
-
-
 Break point
-- gil
+- gil 
 - thread
 - processor
 - async, coroutine( .create_task .gather)
