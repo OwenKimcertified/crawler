@@ -1,0 +1,17 @@
+3. Create Topic.
+
+Create demo-topic with 6 partitions and 3 replicas.
+
+docker exec -it crawler-kafka1-1 kafka-topics --create --partitions 6 --replication-factor 3 --topic test-topic --bootstrap-server kafka1:19091
+
+4. Produce messages.
+
+Open a new terminal window, generate some message to simulate producer load.
+
+docker exec -it crawler-kafka1-1 kafka-producer-perf-test --throughput 500 --num-records 100000000 --topic test-topic --record-size 100 --producer-props bootstrap.servers=kafka1:19091
+
+5. Consume messages.
+
+Open a new terminal window, generate some message to simulate consumer load.
+
+docker exec -it crawler-kafka1-1 kafka-consumer-perf-test --messages 100000000 --timeout 1000000 --topic test-topic --reporting-interval 1000 --show-detailed-stats --bootstrap-server kafka1:19091
