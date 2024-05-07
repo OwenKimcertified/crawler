@@ -26,13 +26,17 @@ Shutting down a container(broker) increases the network usage of another broker.
 
 disconnect error checking
 
-[x] Airflow(automation)
+[] Airflow(automation)
+
+- spring server, mongodb connection refused
 
 [] spark(api serving + *query tunning mission), DW for ad-hoc query
 
 [] day, week, month query
 
 [] recommend system
+
+[] docker resource managing
 
 ### Spring
 
