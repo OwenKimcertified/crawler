@@ -26,7 +26,7 @@ public class Controller {
                 responseDto.getCard_charge_discount_wow_only(),
                 responseDto.getCoucash_payback_wow_only());
         service.saveRefrigerator(refrigerator);
-        kafkaProducer.sendPutRefrigeratorMessage(responseDto);
+        kafkaProducer.sendPutRefrigerator(responseDto);
         return new ResponseDto(); //
     }
 
@@ -40,14 +40,14 @@ public class Controller {
                                                 responseDto.getCard_charge_discount_wow_only(),
                                                 responseDto.getCoucash_payback_wow_only());
         service.saveNotebook(notebook);
-        kafkaProducer.sendPutNotebookMessage(responseDto);
+        kafkaProducer.sendPutNotebook(responseDto);
         return new ResponseDto(); //
     }
 
     @GetMapping("/get/coupang/refrigerator")
     public List<CPRefrigerator> getRefrigerator() {
 
-        kafkaProducer.sendGetRefrigeratorMessage();
+        kafkaProducer.sendGetRefrigerator();
         // 모든 제품 조회
         return service.getAllRefrigerator();
     }
@@ -56,7 +56,7 @@ public class Controller {
     @GetMapping("/get/coupang/notebook")
     public List<CPNotebook> getNotebook() {
 
-        kafkaProducer.sendGetNotebookMessage();
+        kafkaProducer.sendGetNotebook();
         // 모든 제품 조회
         return service.getAllNotebook();
     }

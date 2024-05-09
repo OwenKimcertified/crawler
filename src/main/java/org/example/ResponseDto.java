@@ -18,8 +18,8 @@ public class ResponseDto {
     private double rating;
     private String card_charge_discount_wow_only;
     private String coucash_payback_wow_only;
-    @Override
-    public String toString() {
+
+    public String logging() {
         return "ResponseDto{" +
                 "id=" + (++id) +
                 ", product_name='" + product_name + '\'' +

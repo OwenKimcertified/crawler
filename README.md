@@ -34,7 +34,11 @@ __Airflow(crawling automation)__
 
 - automation crawling
 
-[] Airflow spark(api serving + *query tunning mission)
+[] Airflow data pipeline
+
+- batch processing(to BigQuery)
+
+spark(api serving + *query tunning mission)
 
 - day, week, month -> serving
 

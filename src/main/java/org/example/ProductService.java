@@ -16,12 +16,10 @@ public class ProductService {
     private CPRefrigeratorRepository cpRefrigeratorRepository;
 
     public void saveRefrigerator(CPRefrigerator product) {
-        // Product 엔티티를 데이터베이스에 저장
         cpRefrigeratorRepository.save(product);
     }
 
     public List<CPRefrigerator> getAllRefrigerator() {
-        // 데이터베이스에 저장된 모든 List<Refrigerator> 제품 조회
         return cpRefrigeratorRepository.findAll();
     }
 
@@ -33,7 +31,6 @@ public class ProductService {
     }
 
     public List<CPNotebook> getAllNotebook() {
-        // 데이터베이스에 저장된 모든 List<Refrigerator> 제품 조회
         return cpNotebookRepository.findAll();
     }
 }

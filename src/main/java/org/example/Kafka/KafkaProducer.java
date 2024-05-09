@@ -14,21 +14,21 @@ public class KafkaProducer {
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
 
-    public void sendPutRefrigeratorMessage(ResponseDto responseDto) {
-        String message = responseDto.toString();
+    public void sendPutRefrigerator(ResponseDto responseDto) {
+        String message = responseDto.logging();
         kafkaTemplate.send(TOPIC_PUT_REFRIGERATOR, message);
     }
 
-    public void sendPutNotebookMessage(ResponseDto responseDto) {
-        String message = responseDto.toString();
+    public void sendPutNotebook(ResponseDto responseDto) {
+        String message = responseDto.logging();
         kafkaTemplate.send(TOPIC_PUT_NOTEBOOK, message);
     }
 
-    public void sendGetRefrigeratorMessage() {
+    public void sendGetRefrigerator() {
         kafkaTemplate.send(TOPIC_GET_REFRIGERATOR, "Request for Refrigerator products");
     }
 
-    public void sendGetNotebookMessage() {
+    public void sendGetNotebook() {
         kafkaTemplate.send(TOPIC_GET_NOTEBOOK, "Request for Notebook products");
     }
 }
