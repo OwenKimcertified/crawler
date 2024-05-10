@@ -34,7 +34,9 @@ __Airflow(crawling automation)__
 
 - automation crawling
 
-[] Airflow data pipeline
+[] Airflow data pipeline 50%
+
+![img](./img/5.png)
 
 - batch processing(to BigQuery)
 
