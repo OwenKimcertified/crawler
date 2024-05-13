@@ -44,7 +44,7 @@ spark(api serving + *query tunning mission)
 
 - day, week, month -> serving
 
-[] spark(api serving), DW for ad-hoc query
+[] DW for ad-hoc query
 
 [] recommend system
 

@@ -10,6 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ResponseDto {
+    private static int cnt = 0;
     private int id;
     private String product_name;
     private double origin_price;
@@ -21,7 +22,7 @@ public class ResponseDto {
 
     public String logging() {
         return "ResponseDto{" +
-                "id=" + (++id) +
+                "id=" + ++cnt +
                 ", product_name='" + product_name + '\'' +
                 ", origin_price=" + origin_price +
                 ", discount_price=" + discount_price +

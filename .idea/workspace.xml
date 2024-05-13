@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="modify logging">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-04-21__4_06__________.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-04-21_오전_4_06,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
+    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="airflow pipeline 50% testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Kafka/KafkaProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Kafka/KafkaProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/ResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -427,7 +423,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715265058858</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="airflow pipeline 50% testing">
+      <option name="closed" value="true" />
+      <created>1715333778356</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1715333778356</updated>
+    </task>
+    <task id="LOCAL-00030" summary="airflow pipeline 50% testing">
+      <option name="closed" value="true" />
+      <created>1715333834644</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1715333834644</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -448,6 +460,7 @@
     <MESSAGE value="airflow err, docker resource issue" />
     <MESSAGE value="crontab script" />
     <MESSAGE value="modify logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify logging" />
+    <MESSAGE value="airflow pipeline 50% testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="airflow pipeline 50% testing" />
   </component>
 </project>
