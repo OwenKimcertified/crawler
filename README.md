@@ -30,9 +30,11 @@ __Airflow(crawling automation)__
 
 - spring server, mongodb connection refused [fail]
 
-[x] Crontab script scheduling.
+[x] Crontab script scheduling. (linux)
 
 - automation crawling
+
+- window task scheduler (window)
 
 [x] Airflow data pipeline
 

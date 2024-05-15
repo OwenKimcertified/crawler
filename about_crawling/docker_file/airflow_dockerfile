@@ -1,7 +1,22 @@
-FROM apache/airflow:2.9.1
+FROM apache/airflow:2.9.1-python3.9
 
 USER root
+
 RUN apt-get update && apt-get install -y
-RUN python3 -m pip install playwright pymongo pyspark
-RUN python3 -m playwright install --with-deps
+
+RUN python3.9 -m pip install \
+    playwright \
+    pymongo \
+    pyspark \
+    redis \
+    kafka-python \
+    apache-airflow-providers-apache-kafka \
+    six \
+    google-cloud-bigquery \
+    apache-airflow-providers-google
+
+
+RUN python3.9 -m pip install --upgrade six kafka-python
+RUN python3.9 -m playwright install
+
 USER airflow

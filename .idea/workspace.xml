@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="airflow pipeline 50% testing">
+    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="batch processing img">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook$CPNotebookBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook$CPNotebookBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPRefrigerator$CPRefrigeratorBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPRefrigerator$CPRefrigeratorBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPRefrigerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPRefrigerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/ResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about_crawling/docker_file/airflow_dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/about_crawling/docker_file/airflow_dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +99,7 @@
       <recent name="C:\Users\ehdrb\IdeaProjects\crawler\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ehdrb\IdeaProjects\crawler\about_crawling" />
       <recent name="C:\Users\ehdrb\IdeaProjects\crawler\img" />
       <recent name="C:\Users\ehdrb\IdeaProjects\crawler" />
       <recent name="C:\Users\ehdrb\IdeaProjects\crawler\coupang" />
@@ -443,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715333834644</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="batch processing img">
+      <option name="closed" value="true" />
+      <created>1715793066575</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1715793066575</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -465,6 +469,7 @@
     <MESSAGE value="crontab script" />
     <MESSAGE value="modify logging" />
     <MESSAGE value="airflow pipeline 50% testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="airflow pipeline 50% testing" />
+    <MESSAGE value="batch processing img" />
+    <option name="LAST_COMMIT_MESSAGE" value="batch processing img" />
   </component>
 </project>
