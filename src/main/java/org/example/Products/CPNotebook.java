@@ -37,11 +37,14 @@ public class CPNotebook {
     @Column(name = "coucash_payback_wow_only")
     private String coucash_payback_wow_only;
 
+    @Column(name = "page_num")
+    private int page_num;
+
     @Builder
     public CPNotebook(String product_name, double origin_price, double discount_price,
                       String rocket, double rating,
                       String card_charge_discount_wow_only,
-                      String coucash_payback_wow_only)
+                      String coucash_payback_wow_only, int page_num)
     {
 
         this.product_name = product_name;
@@ -51,5 +54,6 @@ public class CPNotebook {
         this.rating = rating;
         this.card_charge_discount_wow_only = card_charge_discount_wow_only;
         this.coucash_payback_wow_only = coucash_payback_wow_only;
+        this.page_num = page_num;
     }
 }

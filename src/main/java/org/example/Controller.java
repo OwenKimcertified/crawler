@@ -24,7 +24,8 @@ public class Controller {
                 responseDto.getRocket(),
                 responseDto.getRating(),
                 responseDto.getCard_charge_discount_wow_only(),
-                responseDto.getCoucash_payback_wow_only());
+                responseDto.getCoucash_payback_wow_only(),
+                responseDto.getPage_num());
         service.saveRefrigerator(refrigerator);
         kafkaProducer.sendPutRefrigerator(responseDto);
         return new ResponseDto(); //
@@ -38,7 +39,8 @@ public class Controller {
                                                 responseDto.getRocket(),
                                                 responseDto.getRating(),
                                                 responseDto.getCard_charge_discount_wow_only(),
-                                                responseDto.getCoucash_payback_wow_only());
+                                                responseDto.getCoucash_payback_wow_only(),
+                                                responseDto.getPage_num());
         service.saveNotebook(notebook);
         kafkaProducer.sendPutNotebook(responseDto);
         return new ResponseDto(); //

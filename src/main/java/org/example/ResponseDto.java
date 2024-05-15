@@ -19,6 +19,7 @@ public class ResponseDto {
     private double rating;
     private String card_charge_discount_wow_only;
     private String coucash_payback_wow_only;
+    private int page_num;
 
     public String logging() {
         return "ResponseDto{" +
@@ -30,5 +31,7 @@ public class ResponseDto {
                 ", rating=" + rating +
                 ", card_charge_discount_wow_only='" + card_charge_discount_wow_only + '\'' +
                 ", coucash_payback_wow_only='" + coucash_payback_wow_only + '\'' +
+                ", page_num=" + page_num +
                 '}';
-    }}
+    }
+}

@@ -34,7 +34,7 @@ __Airflow(crawling automation)__
 
 - automation crawling
 
-[] Airflow data pipeline 50%
+[x] Airflow data pipeline
 
 ![img](./img/5.png)
 
