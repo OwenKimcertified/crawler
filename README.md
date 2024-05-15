@@ -38,7 +38,11 @@ __Airflow(crawling automation)__
 
 ![img](./img/5.png)
 
+![img](./img/6.png)
+
 - batch processing(to BigQuery)
+
+- use commit, update next migration point
 
 spark(api serving + *query tunning mission)
 

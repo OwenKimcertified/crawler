@@ -7,10 +7,12 @@
     <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="airflow pipeline 50% testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Products/CPNotebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Products/CPNotebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Products/CPRefrigerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Products/CPRefrigerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook$CPNotebookBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook$CPNotebookBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPRefrigerator$CPRefrigeratorBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPRefrigerator$CPRefrigeratorBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPRefrigerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPRefrigerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/ResponseDto.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
