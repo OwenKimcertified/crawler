@@ -1,7 +1,6 @@
-package org.example.Products;
+package org.example.ProductsRepository;
 
 import lombok.*;
-
 import javax.persistence.*;
 
 @NoArgsConstructor

@@ -1,4 +1,4 @@
-package org.example.Products;
+package org.example.ProductsRepository;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;

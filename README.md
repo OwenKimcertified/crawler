@@ -68,6 +68,10 @@ dirty checking, MVC, single pattern
 
 ㄴ  10% performance improvement when crawling 5 pages.
 
+### BERT(sequence), word2vec(word) recommend system -ing 
+
+- a/b test 
+
 Break point
 - gil 
 - thread

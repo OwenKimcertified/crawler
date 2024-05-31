@@ -1,8 +1,8 @@
 package org.example;
-import org.example.Products.CPNotebook;
-import org.example.Products.CPNotebookRepository;
-import org.example.Products.CPRefrigerator;
-import org.example.Products.CPRefrigeratorRepository;
+import org.example.ProductsRepository.CPNotebook;
+import org.example.ProductsRepository.CPNotebookRepository;
+import org.example.ProductsRepository.CPRefrigerator;
+import org.example.ProductsRepository.CPRefrigeratorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,5 +1,5 @@
 package org.example.Kafka;
-import org.example.ResponseDto;
+import org.example.ProductResponseDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
@@ -14,12 +14,12 @@ public class KafkaProducer {
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
 
-    public void sendPutRefrigerator(ResponseDto responseDto) {
+    public void sendPutRefrigerator(ProductResponseDto responseDto) {
         String message = responseDto.logging();
         kafkaTemplate.send(TOPIC_PUT_REFRIGERATOR, message);
     }
 
-    public void sendPutNotebook(ResponseDto responseDto) {
+    public void sendPutNotebook(ProductResponseDto responseDto) {
         String message = responseDto.logging();
         kafkaTemplate.send(TOPIC_PUT_NOTEBOOK, message);
     }

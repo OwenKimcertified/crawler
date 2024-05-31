@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ResponseDto {
+public class ProductResponseDto {
     private static int cnt = 0;
     private int id;
     private String product_name;
