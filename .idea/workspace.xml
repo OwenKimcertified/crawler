@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="batch processing img">
+    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="batch processing, crontab, task scheduler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_crawling/docker_file/airflow_dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/about_crawling/docker_file/airflow_dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="test1234" type="f1a62948:ProjectNode" />
+                <item name="crawler" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -87,7 +88,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ehdrb/IdeaProjects/crawler/img&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;문제&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
@@ -447,7 +448,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715793066575</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="batch processing, crontab, task scheduler">
+      <option name="closed" value="true" />
+      <created>1715793833716</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1715793833716</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -470,6 +479,7 @@
     <MESSAGE value="modify logging" />
     <MESSAGE value="airflow pipeline 50% testing" />
     <MESSAGE value="batch processing img" />
-    <option name="LAST_COMMIT_MESSAGE" value="batch processing img" />
+    <MESSAGE value="batch processing, crontab, task scheduler" />
+    <option name="LAST_COMMIT_MESSAGE" value="batch processing, crontab, task scheduler" />
   </component>
 </project>
