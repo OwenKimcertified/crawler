@@ -4,26 +4,90 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="recommend system ing">
+    <list default="true" id="1deb2d5a-81b1-479f-9388-288b3cd50528" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Kafka/KafkaProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Kafka/KafkaProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook$CPNotebookBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook$CPNotebookBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/Products/CPNotebook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ResponseDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/ResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/T_Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ProductRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Kafka/KafkaProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPNotebook$CPNotebookBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPNotebook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPNotebookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPRefrigerator$CPRefrigeratorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPRefrigerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPRefrigeratorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/board/BoardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/register/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/register/RegisterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/register/RegisterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/register/User/UserEntity$UserEntityBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/register/User/UserEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/register/User/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/register/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/org/example/Products/ProductRepositoryTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Kafka/KafkaProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Products/CPNotebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/CPNotebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Products/CPNotebookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/CPNotebookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Products/CPRefrigerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/CPRefrigerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Products/CPRefrigeratorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/CPRefrigeratorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/board/BoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/register/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/register/RegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/register/RegisterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/register/User/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/register/User/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/register/WebSecurityConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Products/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ProductsRepository/ProductRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,30 +119,16 @@
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2f2gd4tSajj3F0Gv64w0IUsKPJJ" />
+  <component name="ProjectId" id="2hNvbX8d297H45oy0R2PJcs1d0j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
@@ -87,112 +137,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.ProductRepositoryTest (1).executor": "Run",
-    "Gradle.ProductRepositoryTest.executor": "Run",
-    "Gradle.ProductRepositoryTest.saveProductTest.executor": "Run",
-    "Gradle.ProductRepositoryTest.test_saveProduct.executor": "Run",
-    "Gradle.test1234 [:Main.main()].executor": "Run",
-    "JUnit.ProductRepositoryTest (1).executor": "Run",
-    "JUnit.ProductRepositoryTest.executor": "Run",
-    "JUnit.ProductRepositoryTest.saveProductTest (1).executor": "Run",
-    "JUnit.ProductRepositoryTest.saveProductTest.executor": "Debug",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ehdrb/IdeaProjects/crawler/img",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "애플리케이션.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.crawler.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ehdrb/IdeaProjects/demo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ehdrb\IdeaProjects\crawler\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ehdrb\IdeaProjects\crawler\about_crawling" />
-      <recent name="C:\Users\ehdrb\IdeaProjects\crawler\img" />
-      <recent name="C:\Users\ehdrb\IdeaProjects\crawler" />
-      <recent name="C:\Users\ehdrb\IdeaProjects\crawler\coupang" />
-      <recent name="C:\Users\ehdrb\IdeaProjects\test1234\crawling_file" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="애플리케이션.Main">
+}</component>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="crawler.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.ProductsRepository.*" />
+          <option name="PATTERN" value="org.example.Kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crawler.test" />
-      <option name="PACKAGE_NAME" value="org.example.Products" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ProductsRepository.ProductRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crawler.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ProductRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTest.saveProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crawler.test" />
-      <option name="PACKAGE_NAME" value="org.example.Products" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ProductsRepository.ProductRepositoryTest" />
-      <option name="METHOD_NAME" value="saveProductTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTest.saveProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crawler.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ProductRepositoryTest" />
-      <option name="METHOD_NAME" value="saveProductTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,316 +167,18 @@
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="JUnit.ProductRepositoryTest" />
-        <item itemvalue="JUnit.ProductRepositoryTest.saveProductTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="426ae3de-25f5-4cbd-813a-ea724b36ac15" name="변경" comment="" />
-      <created>1713004671009</created>
+      <changelist id="1deb2d5a-81b1-479f-9388-288b3cd50528" name="변경" comment="" />
+      <created>1717447423069</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1713004671009</updated>
+      <updated>1717447423069</updated>
     </task>
-    <task id="LOCAL-00001" summary="test">
-      <option name="closed" value="true" />
-      <created>1713104239268</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1713104239268</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test">
-      <option name="closed" value="true" />
-      <created>1713109816128</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1713109816128</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test">
-      <option name="closed" value="true" />
-      <created>1713276658415</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1713276658415</updated>
-    </task>
-    <task id="LOCAL-00004" summary="jpa pass">
-      <option name="closed" value="true" />
-      <created>1713282891700</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1713282891700</updated>
-    </task>
-    <task id="LOCAL-00005" summary="initial setting.">
-      <option name="closed" value="true" />
-      <created>1713291469532</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1713291469533</updated>
-    </task>
-    <task id="LOCAL-00006" summary="initial setting.">
-      <option name="closed" value="true" />
-      <created>1713291570893</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1713291570893</updated>
-    </task>
-    <task id="LOCAL-00007" summary="initial setting.">
-      <option name="closed" value="true" />
-      <created>1713291619291</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1713291619291</updated>
-    </task>
-    <task id="LOCAL-00008" summary="column add, async">
-      <option name="closed" value="true" />
-      <created>1713449237340</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1713449237340</updated>
-    </task>
-    <task id="LOCAL-00009" summary="column add, async">
-      <option name="closed" value="true" />
-      <created>1713449264839</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1713449264839</updated>
-    </task>
-    <task id="LOCAL-00010" summary="column add, async">
-      <option name="closed" value="true" />
-      <created>1713461324508</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1713461324508</updated>
-    </task>
-    <task id="LOCAL-00011" summary="수집기 비동기 처리 중, 테이블 상속 문제">
-      <option name="closed" value="true" />
-      <created>1713639982943</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1713639982943</updated>
-    </task>
-    <task id="LOCAL-00012" summary="수집기 비동기 처리 중, 테이블 상속 문제">
-      <option name="closed" value="true" />
-      <created>1713640316780</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1713640316780</updated>
-    </task>
-    <task id="LOCAL-00013" summary="grafana, prometheus kafka connect (monitoring)">
-      <option name="closed" value="true" />
-      <created>1714649305913</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1714649305913</updated>
-    </task>
-    <task id="LOCAL-00014" summary="grafana, prometheus kafka connect (monitoring)">
-      <option name="closed" value="true" />
-      <created>1714667745711</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1714667745711</updated>
-    </task>
-    <task id="LOCAL-00015" summary="grafana, prometheus kafka connect (monitoring)">
-      <option name="closed" value="true" />
-      <created>1714688248760</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1714688248760</updated>
-    </task>
-    <task id="LOCAL-00016" summary="kafka status monitoring(Grafana)">
-      <option name="closed" value="true" />
-      <created>1714834357901</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1714834357901</updated>
-    </task>
-    <task id="LOCAL-00017" summary="done">
-      <option name="closed" value="true" />
-      <created>1714834391381</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1714834391381</updated>
-    </task>
-    <task id="LOCAL-00018" summary="kafka RestAPI process">
-      <option name="closed" value="true" />
-      <created>1714881701758</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1714881701759</updated>
-    </task>
-    <task id="LOCAL-00019" summary="kafka RestAPI process">
-      <option name="closed" value="true" />
-      <created>1714881845110</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1714881845110</updated>
-    </task>
-    <task id="LOCAL-00020" summary="kafka RestAPI process">
-      <option name="closed" value="true" />
-      <created>1714881868031</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1714881868031</updated>
-    </task>
-    <task id="LOCAL-00021" summary="kafka">
-      <option name="closed" value="true" />
-      <created>1714891146362</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1714891146362</updated>
-    </task>
-    <task id="LOCAL-00022" summary="kafka">
-      <option name="closed" value="true" />
-      <created>1714891156647</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1714891156647</updated>
-    </task>
-    <task id="LOCAL-00023" summary="airflow compose file">
-      <option name="closed" value="true" />
-      <created>1715004496016</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1715004496016</updated>
-    </task>
-    <task id="LOCAL-00024" summary="airflow config">
-      <option name="closed" value="true" />
-      <created>1715078316107</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1715078316107</updated>
-    </task>
-    <task id="LOCAL-00025" summary="airflow config">
-      <option name="closed" value="true" />
-      <created>1715078419209</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1715078419209</updated>
-    </task>
-    <task id="LOCAL-00026" summary="airflow err, docker resource issue">
-      <option name="closed" value="true" />
-      <created>1715111055682</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1715111055682</updated>
-    </task>
-    <task id="LOCAL-00027" summary="crontab script">
-      <option name="closed" value="true" />
-      <created>1715173854127</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1715173854127</updated>
-    </task>
-    <task id="LOCAL-00028" summary="modify logging">
-      <option name="closed" value="true" />
-      <created>1715265058858</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1715265058858</updated>
-    </task>
-    <task id="LOCAL-00029" summary="airflow pipeline 50% testing">
-      <option name="closed" value="true" />
-      <created>1715333778356</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1715333778356</updated>
-    </task>
-    <task id="LOCAL-00030" summary="airflow pipeline 50% testing">
-      <option name="closed" value="true" />
-      <created>1715333834644</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1715333834644</updated>
-    </task>
-    <task id="LOCAL-00031" summary="batch processing img">
-      <option name="closed" value="true" />
-      <created>1715793066575</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1715793066575</updated>
-    </task>
-    <task id="LOCAL-00032" summary="batch processing, crontab, task scheduler">
-      <option name="closed" value="true" />
-      <created>1715793833716</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1715793833716</updated>
-    </task>
-    <task id="LOCAL-00033" summary="recommend system ing">
-      <option name="closed" value="true" />
-      <created>1717142936443</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1717142936443</updated>
-    </task>
-    <option name="localTasksCounter" value="34" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
-    <MESSAGE value="jpa pass" />
-    <MESSAGE value="initial setting." />
-    <MESSAGE value="column, async" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;out/production/classes/org/example/Controller.class&#10;#&#9;out/production/classes/org/example/Product$ProductBuilder.class&#10;#&#9;out/production/classes/org/example/Product.class&#10;#&#9;out/production/classes/org/example/ResponseDto.class&#10;#&#9;out/test/classes/org/example/ProductRepositoryTest.class" />
-    <MESSAGE value="column add, async" />
-    <MESSAGE value="수집기 비동기 처리 중, 테이블 상속 문제" />
-    <MESSAGE value="grafana, prometheus kafka connect (monitoring)" />
-    <MESSAGE value="kafka status monitoring(Grafana)" />
-    <MESSAGE value="done" />
-    <MESSAGE value="kafka RestAPI process" />
-    <MESSAGE value="kafka" />
-    <MESSAGE value="airflow compose file" />
-    <MESSAGE value="airflow config" />
-    <MESSAGE value="airflow err, docker resource issue" />
-    <MESSAGE value="crontab script" />
-    <MESSAGE value="modify logging" />
-    <MESSAGE value="airflow pipeline 50% testing" />
-    <MESSAGE value="batch processing img" />
-    <MESSAGE value="batch processing, crontab, task scheduler" />
-    <MESSAGE value="recommend system ing" />
-    <option name="LAST_COMMIT_MESSAGE" value="recommend system ing" />
   </component>
 </project>
