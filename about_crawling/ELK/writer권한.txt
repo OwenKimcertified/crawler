@@ -1,0 +1,7 @@
+curl -X PUT "localhost:9200/_security/role/logstash_writer" -H "Content-Type: application/json" -d '{
+  "cluster": ["all"],
+  "indices": [],
+  "run_as": [],
+  "applications": [],
+  "metadata": {}
+}'

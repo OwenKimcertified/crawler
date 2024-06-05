@@ -77,3 +77,6 @@ Break point
 - thread
 - processor
 - async, coroutine( .create_task .gather)
+
+--------------------------------------------------------------
+크롤링이 막혔음.. 여러가지 수정을 해보았지만 안돼서 일단 보류
