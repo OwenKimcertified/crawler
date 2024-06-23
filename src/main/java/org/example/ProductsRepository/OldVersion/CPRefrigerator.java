@@ -1,6 +1,7 @@
-package org.example.ProductsRepository;
+package org.example.ProductsRepository.OldVersion;
 
 import lombok.*;
+
 import javax.persistence.*;
 
 @NoArgsConstructor
@@ -8,8 +9,8 @@ import javax.persistence.*;
 @Entity
 @Getter
 @Setter
-@Table(name = "coupang_notebook")
-public class CPNotebook {
+@Table(name = "coupang_refrigerator")
+public class CPRefrigerator {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -40,10 +41,10 @@ public class CPNotebook {
     private int page_num;
 
     @Builder
-    public CPNotebook(String product_name, double origin_price, double discount_price,
-                      String rocket, double rating,
-                      String card_charge_discount_wow_only,
-                      String coucash_payback_wow_only, int page_num)
+    public CPRefrigerator(String product_name, double origin_price, double discount_price,
+                          String rocket, double rating,
+                          String card_charge_discount_wow_only,
+                          String coucash_payback_wow_only, int page_num)
     {
 
         this.product_name = product_name;

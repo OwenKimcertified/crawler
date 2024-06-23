@@ -1,4 +1,4 @@
-package org.example.ProductsRepository;
+package org.example.ProductsRepository.OldVersion;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
