@@ -45,7 +45,7 @@ schema = [
 
 # mongodb args
 
-str_pass = "mongodb+srv://owen:test123123@cluster0.ijpzrma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+str_pass = ?
 mgdb_client = pymongo.MongoClient(str_pass)
 db = mgdb_client['http_request_meta_data']
 meta_collection = db['page_meta_data']
