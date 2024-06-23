@@ -46,13 +46,15 @@ __Airflow(crawling automation)__
 
 - use commit, update next migration point
 
-spark(api serving + *query tunning mission)
-
-- day, week, month -> serving
-
-[] DW for ad-hoc query
-
 [] recommend system
+
+Content-Based Filtering
+
+kafka -> logstash -> es
+
+word2vec, BERT
+
+real time recommend
 
 ### Spring
 
@@ -76,7 +78,7 @@ dirty checking, MVC, single pattern
 
 persistence
 
-Break point
+### Break point
 - gil 
 - thread
 - processor

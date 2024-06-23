@@ -4,33 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1deb2d5a-81b1-479f-9388-288b3cd50528" name="변경" comment="크롤링 막힘. 보류">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" afterDir="false" />
+    <list default="true" id="1deb2d5a-81b1-479f-9388-288b3cd50528" name="변경" comment="refactoring, controller, dto, service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/Kafka/KafkaProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductLogic/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/ProductLogic/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductLogic/ProductResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/ProductLogic/ProductResponseDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductLogic/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/ProductLogic/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPNotebook$CPNotebookBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPNotebook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPNotebookRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPRefrigerator$CPRefrigeratorBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPRefrigerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/ProductsRepository/CPRefrigeratorRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Kafka/KafkaProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/CPNotebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/OldVersion/CPNotebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/CPNotebookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/OldVersion/CPNotebookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/CPRefrigerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/OldVersion/CPRefrigerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/CPRefrigeratorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductsRepository/OldVersion/CPRefrigeratorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ProductsRepository/ProductRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +47,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -226,12 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717583276015</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactoring, controller, dto, service">
+      <option name="closed" value="true" />
+      <created>1719141984934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719141984934</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="크롤링 막힘. 보류" />
-    <option name="LAST_COMMIT_MESSAGE" value="크롤링 막힘. 보류" />
+    <MESSAGE value="refactoring, controller, dto, service" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring, controller, dto, service" />
   </component>
 </project>
