@@ -13,4 +13,10 @@ public class ReplyResponseDto {
     private String comment;
     private String key;
 
+    public String logging_reply() {
+        return "productDTO{" +
+                ", product_comment='" + comment + '\'' +
+                ", product_key='" + key + '\'' +
+                '}';
+    }
 }

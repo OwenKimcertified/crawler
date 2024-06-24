@@ -1,9 +1,10 @@
 package org.example.ProductLogic;
 
-import org.example.ProductsRepository.KurlyFrozenComment;
 //import org.example.ProductsRepository.OldVersion.CPNotebook;
 //import org.example.ProductsRepository.OldVersion.CPRefrigerator;
-//import org.example.Kafka.KafkaProducer;
+
+import org.example.ProductsRepository.KurlyFrozenComment;
+import org.example.Kafka.KafkaProducer;
 import org.example.ProductsRepository.KurlyFrozen;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -15,8 +16,8 @@ import java.util.List;
 public class ProductController {
     @Autowired
     private ProductService service;
-//    @Autowired
-//    private KafkaProducer kafkaProducer;
+    @Autowired
+    private KafkaProducer kafkaProducer;
 
     @PostMapping("/post/kurly/frozen")
     public ProductResponseDto kulryfrozen(@RequestBody ProductResponseDto responseDto) {
@@ -29,7 +30,7 @@ public class ProductController {
                                                         responseDto.getLucifer(),
                                                         responseDto.getEndpoint());
         service.saveProductFrozen(product_frozen);
-//        kafkaProducer.sendProductFrozen(responseDto);
+        kafkaProducer.sendProductFrozen(responseDto);
         return new ProductResponseDto();
     }
 
@@ -47,6 +48,7 @@ public class ProductController {
         KurlyFrozenComment productReply = new KurlyFrozenComment(replyResponseDto.getComment(),
                                                                  replyResponseDto.getKey());
         service.saveComment(productReply);
+        kafkaProducer.sendProductFrozenReply(replyResponseDto);
         return new ReplyResponseDto();
     }
 

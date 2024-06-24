@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1deb2d5a-81b1-479f-9388-288b3cd50528" name="변경" comment="refactoring, controller, dto, service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Kafka/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ProductResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ReplyResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductLogic/ReplyResponseDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

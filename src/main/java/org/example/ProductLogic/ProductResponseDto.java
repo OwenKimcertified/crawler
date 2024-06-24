@@ -19,9 +19,8 @@ public class ProductResponseDto {
     private String lucifer;
     private String endpoint;
 
-    public String logging() {
-
-        return "ResponseDto{" +
+    public String logging_product() {
+        return "productDTO{" +
                 "id=" + ++cnt +
                 ", product_name='" + name + '\'' +
                 ", product_describe='" + describe + '\'' +
