@@ -1,5 +1,7 @@
 package org.example.ProductLogic;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,9 +16,17 @@ public class ReplyResponseDto {
     private String key;
 
     public String logging_reply() {
-        return "productDTO{" +
-                ", product_comment='" + comment + '\'' +
-                ", product_key='" + key + '\'' +
-                '}';
+        ObjectMapper mapper = new ObjectMapper();
+        ObjectNode product = mapper.createObjectNode();
+
+        product.put("comment", comment);
+        product.put("key", key);
+
+        try {
+            return mapper.writeValueAsString(product);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "{}";
+        }
     }
 }

@@ -1,5 +1,7 @@
 package org.example.ProductLogic;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -20,19 +22,26 @@ public class ProductResponseDto {
     private String endpoint;
 
     public String logging_product() {
-        return "productDTO{" +
-                "id=" + ++cnt +
-                ", product_name='" + name + '\'' +
-                ", product_describe='" + describe + '\'' +
-                ", origin_price=" + origin_price +
-                ", discount_price=" + discount_price +
-                ", reply_count='" + reply_count + '\'' +
-                ", lucifer'" + lucifer + '\'' +
-                ", endpoint'" + endpoint +'\'' +
-                '}';
+        ObjectMapper mapper = new ObjectMapper();
+        ObjectNode product = mapper.createObjectNode();
+
+        product.put("id", ++cnt);
+        product.put("product_name", name);
+        product.put("product_describe", describe);
+        product.put("origin_price", (int) origin_price);
+        product.put("discount_price", (int) discount_price);
+        product.put("reply_count", reply_count);
+        product.put("lucifer", lucifer);
+        product.put("endpoint", endpoint);
+
+        try {
+            return mapper.writeValueAsString(product);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "{ None }";
+        }
     }
 }
-
 //public class ProductResponseDto {
 //    private static int cnt = 0;
 //    private int id;

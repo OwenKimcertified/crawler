@@ -13,8 +13,8 @@ public class KafkaProducer {
 //    private static final String TOPIC_GET_NOTEBOOK = "get_notebook_topic";
 
     // 컬리
-    private static final String post_kurly_frozen = "post_kurly_frozen";
-    private static final String post_kurly_frozen_reply = "post_kurly_frozen_reply";
+    private static final String post_kurly_frozen = "post_kurly_product_frozen";
+    private static final String post_kurly_frozen_reply = "post_kurly_product_frozen_reply";
 
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
