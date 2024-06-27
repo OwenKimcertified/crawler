@@ -70,9 +70,11 @@ dirty checking, MVC, single pattern
 
 ㄴ  10% performance improvement when crawling 5 pages.
 
-### BERT(sequence), word2vec(word) recommend system -ing 
+### BERT(sequence)
 
-- a/b test 
+차원 수 768에 대한 예외 처리, 
+
+API 작성하여 임베딩 요청하기.
 
 ### JPA 
 
