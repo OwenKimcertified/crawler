@@ -85,3 +85,9 @@ persistence
 - async, coroutine( .create_task .gather)
 
 --------------------------------------------------------------
+
+### Django embedding sever 
+
+문장, 단어, 댓글 임배딩 서버군 완성. 
+
+ES 인덱스에 저장된 document 활용하여 검색 기반 추천 서비스 로직 작성.
