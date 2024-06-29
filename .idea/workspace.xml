@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1deb2d5a-81b1-479f-9388-288b3cd50528" name="변경" comment="embedding django server complete. &#10;&#10;search server ing">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -64,27 +70,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.crawler.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KurlyFrozenCommentRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KurlyFrozenCommentRepositoryTest.testDeleteComment.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KurlyFrozenCommentRepositoryTest.testFindCommentById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KurlyFrozenCommentRepositoryTest.testSaveComment.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KurlyFrozenCommentTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KurlyFrozenCommentTest.testKurlyFrozenCommentEntity.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.KurlyFrozenRepositoryTest.saveProductTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ProductRepositoryTest.saveProductTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ehdrb/IdeaProjects/crawler/about_crawling&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.crawler.executor": "Run",
+    "JUnit.KurlyFrozenCommentRepositoryTest.executor": "Run",
+    "JUnit.KurlyFrozenCommentRepositoryTest.testDeleteComment.executor": "Run",
+    "JUnit.KurlyFrozenCommentRepositoryTest.testFindCommentById.executor": "Run",
+    "JUnit.KurlyFrozenCommentRepositoryTest.testSaveComment.executor": "Run",
+    "JUnit.KurlyFrozenCommentTest.executor": "Run",
+    "JUnit.KurlyFrozenCommentTest.testKurlyFrozenCommentEntity.executor": "Run",
+    "JUnit.KurlyFrozenRepositoryTest.saveProductTest.executor": "Run",
+    "JUnit.ProductRepositoryTest.saveProductTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ehdrb/IdeaProjects/crawler/about_crawling",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "애플리케이션.Main.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ehdrb\IdeaProjects\crawler\about_crawling" />
@@ -226,7 +233,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719487508833</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="embedding django server complete. &#10;&#10;search server ing">
+      <option name="closed" value="true" />
+      <created>1719487623375</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719487623375</updated>
+    </task>
+    <task id="LOCAL-00007" summary="embedding django server complete. &#10;&#10;search server ing">
+      <option name="closed" value="true" />
+      <created>1719487684295</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719487684295</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

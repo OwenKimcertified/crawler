@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+<h1>Search Results</h1>
+<div>
+    <a href="/search">Back to search</a>
+</div>
+<div>
+    <ul>
+        <th:block th:if="${error}">
+            <p th:text="${error}"></p>
+        </th:block>
+        <th:block th:if="${not #lists.isEmpty(results)}">
+            <th:block th:each="result : ${results}">
+                <li>
+                    <h2 th:text="${result.product_name}"></h2>
+                    <p th:text="${result.product_describe}"></p>
+                    <p th:text="${result.product_id}"></p>
+                </li>
+            </th:block>
+        </th:block>
+        <th:block th:if="${#lists.isEmpty(results)}">
+            <p>No results found</p>
+        </th:block>
+    </ul>
+</div>
+</body>
+</html>
