@@ -82,6 +82,8 @@ dirty checking, MVC, single pattern
 
 API 작성하여 임베딩 요청하기.
 
+차원 수를 줄여 인덱스의 복잡도를 줄이기(PCA)
+
 ### JPA 
 
 persistence
@@ -102,7 +104,7 @@ ES 인덱스에 저장된 document 활용하여 검색 기반 추천 서비스 �
 
 ### 공부 
 
-java 기본부터 다시할 것.
+java 기본부터 다시할 것.we
 
 
 ### 수정 사항
