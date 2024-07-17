@@ -70,6 +70,8 @@ Controller, Dto, Service Logic(MVC pattern)
 
 dirty checking, MVC, single pattern
 
+세션, 쿠키를 이해하기
+
 ### Python 3.9
 
 [x] Crwaling async code (playwright) More pages, More performance
