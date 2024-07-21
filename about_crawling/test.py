@@ -1,8 +1,6 @@
 from playwright.sync_api import sync_playwright
 
 def fetch_comments_from_page(page):
-    # 이 함수는 주어진 페이지에서 댓글을 스크랩하는 역할을 합니다.
-    # 실제 댓글의 CSS 셀렉터는 사이트에 맞게 수정해야 합니다.
     comments = page.query_selector_all(".comment")
     return [comment.inner_text() for comment in comments]
 

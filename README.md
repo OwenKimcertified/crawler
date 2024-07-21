@@ -90,6 +90,18 @@ API 작성하여 임베딩 요청하기.
 
 persistence
 
+### DataBase
+
+Transaction (ACID)
+
+Concurrency Control
+
+Lock(Shared Lock, Exclusive Lock, Pessimistic Lock, Optimistic Lock)
+
+Deadlock
+
+Index
+
 ### Break point
 - gil 
 - thread
