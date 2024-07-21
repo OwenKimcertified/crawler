@@ -22,24 +22,20 @@ def comment_batch_generator(url, batch_size=32):
                 comments = comments[batch_size:]
                 yield batch
 
-            # 다음 페이지로 이동
             next_button = page.query_selector(".next-page")
             if next_button and next_button.is_visible():
                 next_button.click()
                 page.wait_for_load_state("networkidle")
             else:
                 break
-
-        # 남아 있는 댓글들을 마지막 배치로 반환
+                
         if comments:
             yield comments
 
         browser.close()
 
-# 예제 사용
-url = "https://xxx.com/comments"  # 실제 댓글 페이지 URL로 대체
+url = "https://xxx.com/comments"  
 comment_batches = comment_batch_generator(url)
 
-# 배치 출력
 for batch in comment_batches:
     print(batch)
